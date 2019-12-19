@@ -1,13 +1,30 @@
+/*
+========
+TAGS
+========
+*/
+nav ul{
+    list-style-type: none;
+}
+
 header {
     text-align: center;
-  }
-  .flexbox-container {
+}
+
+/*
+========
+CLASSES
+========
+*/
+.flexbox-container {
     display:flex;
     flex-flow: row wrap;
-  }
-  .flexbox-container > * {
+}
+
+.flexbox-container > * {
+    flex:1;
     margin: 10px;
     padding: 50px;
     background-color: lightgray;
     border-radius: 10px;
-  }
+}
