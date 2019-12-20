@@ -3,9 +3,20 @@
 TAGS
 ========
 */
-nav ul{
-    list-style-type: none;
+nav .flexbox-container{
+    margin: auto;
     padding: 0;
+    text-align: center;
+    justify-content: center;
+}
+nav ul {
+    list-style-type: none;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+nav li {
+    max-width: 200px;
 }
 
 header {
