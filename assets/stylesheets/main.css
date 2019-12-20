@@ -12,6 +12,18 @@ header {
     text-align: center;
 }
 
+.flexbox-container main {
+    flex: 4;
+}
+
+.flexbox-container section {
+    flex: 2;
+}
+
+.flexbox-container footer {
+    flex-basis: 100vw;
+}
+
 /*
 ========
 CLASSES
@@ -28,6 +40,7 @@ CLASSES
     padding: 50px;
     background-color: lightgray;
     border-radius: 10px;
+    min-width: 200px;
 }
 
 nav .flexbox-container * {
