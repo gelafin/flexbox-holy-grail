@@ -5,6 +5,7 @@ TAGS
 */
 nav ul{
     list-style-type: none;
+    padding: 0;
 }
 
 header {
@@ -27,4 +28,8 @@ CLASSES
     padding: 50px;
     background-color: lightgray;
     border-radius: 10px;
+}
+
+nav .flexbox-container * {
+    padding: 10px;
 }
